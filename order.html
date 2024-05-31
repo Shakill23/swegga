@@ -10,10 +10,10 @@
 <body>
     <div class="container">
         <header class="banner">
-            <img src="https://anushqakandan.github.io/All-images/Sweggae/delivery.gif" alt="Free Delivery" height="85" width="300">
+            <img src="https://shakill23.github.io/allImages/images/delivery.gif" alt="Free Delivery" height="85" width="300">
         </header>
         <nav class="navigation">
-            <img src="https://anushqakandan.github.io/All-images/Sweggae/links.gif" usemap="#navmap" alt="Navigation" height="56" width="560">
+            <img src="https://shakill23.github.io/allImages/images/links.gif" usemap="#navmap" alt="Navigation" height="56" width="560">
             <map name="navmap">
                 <area shape="rect" coords="10,5,95,35" href="order.html" alt="Home">
                 <area shape="rect" coords="105,5,190,35" href="services.html" alt="Services">
@@ -24,11 +24,11 @@
         </nav>
         <div class="content">
             <aside class="sidebar">
-                <img src="https://anushqakandan.github.io/All-images/Sweggae/swegga.jpg" alt="Swegga Fashion" height="350" width="150">
+                <img src="https://shakill23.github.io/allImages/images/swegga.jpg" alt="Swegga Fashion" height="350" width="150">
             </aside>
-            <main class="main" style="margin-left: 150px;">
-                <form id="orders">
-                    <table class="product-summary" style="border: 1px solid black; border-collapse: collapse;">
+            <main class="main">
+                <form action="" id="form">
+                    <table class="product-summary">
                         <caption>Product Summary</caption>
                         <thead>
                             <tr>
@@ -44,14 +44,14 @@
                             <tr>
                                 <td><a href="female.html">Female Ski Jackets</a></td>
                                 <td>
-                                    <select name="size" id="female-size">
+                                    <select name="size" id="size">
                                         <option value="small">Small</option>
                                         <option value="medium">Medium</option>
                                         <option value="large">Large</option>
                                     </select>
                                 </td>
                                 <td>
-                                    <select name="colour" id="female-colour">
+                                    <select name="colour" id="colour">
                                         <option value="red">Red</option>
                                         <option value="pink">Pink</option>
                                         <option value="black">Black</option>
@@ -64,22 +64,22 @@
                             <tr>
                                 <td><a href="male.html">Male Ski Jackets</a></td>
                                 <td>
-                                    <select name="size" id="male-size">
+                                    <select name="size" id="size">
                                         <option value="small">Small</option>
                                         <option value="medium">Medium</option>
                                         <option value="large">Large</option>
                                     </select>
                                 </td>
                                 <td>
-                                    <select name="colour" id="male-colour">
+                                    <select name="colour" id="colour">
                                         <option value="red">Red</option>
                                         <option value="blue">Blue</option>
                                         <option value="white">White</option>
                                     </select>
                                 </td>
                                 <td>180.95</td>
-                                <td><input type="number" id="male-quantity" value="4" min="0" oninput="calculateTotal()"></td>
-                                <td id="male-total">R 723.80</td>
+                                <td><input type="number" id="male-quantity" value="2" min="0" oninput="calculateTotal()"></td>
+                                <td id="male-total">R 361.90</td>
                             </tr>
                         </tbody>
                         <tfoot>
@@ -88,7 +88,7 @@
                                 <td>
                                     <button type="button" onclick="calculateTotal()">Total Price</button>
                                 </td>
-                                <td id="order-total">R 1025.70</td>
+                                <td id="order-total">R 663.80</td>
                             </tr>
                         </tfoot>
                     </table>
@@ -96,7 +96,7 @@
             </main>
         </div>
         <footer class="footer">
-            <p class="copyright">© 2020 Swegga Fashion – Your Name & Surname</p>
+            <p>&copy; 2014 Swegga Fashion - Examination number</p>
         </footer>
     </div>
     <script src="./script/code.js"></script>
